@@ -6,14 +6,14 @@ header {
 }
 
 nav {
-    font-family: Excluded, "Trebuchet MS", sans-serif;
+    font-family: Excluded, "Lucida Console", monospace;
     color: #FFFFFF;
     display: inline;
     font-size: 35px;
 }
 
 nav li {
-    font-family: Excluded, "Trebuchet MS", sans-serif;
+    font-family: Excluded, "Lucida Console", monospace;
     color: #FFFFFF;
     display: flex;
     display: inline-block;
@@ -30,32 +30,32 @@ body {
 }
 
 h1 {
-    font-family: Excluded, "Trebuchet MS", sans-serif;
+    font-family: Excluded, "Lucida Console", monospace;
     color: #FF4E00;
     font-size: 40px;
     text-shadow: black;
 }
 
 h3 {
-    font-family: Excluded, "Trebuchet MS", sans-serif;
+    font-family: Excluded, "Lucida Console", monospace;
     color: #FFFFFF;
     font-size: 30px;
 }
 
 h4 {
-    font-family: Audiowide, "Trebuchet MS", sans-serif;
+    font-family: Audiowide, "Lucida Console", monospace;
     color: #FFFFFF;
     font-size: 30px;
     padding: 0px 125px;;
 }
 
 h5 {
-    font-family: Audiowide, sans-serif;
+    font-family: Audiowide, monospace;
     color: #FFFFFF;
 }
 
 p {
-    font-family: Audiowide, "Trebuchet MS", sans-serif;
+    font-family: Audiowide, "Lucida Console", monospace;
     color: #FFFFFF;
 }
 
