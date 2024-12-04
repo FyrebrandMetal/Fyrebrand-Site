@@ -1,0 +1,342 @@
+header {
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    background-image: url('/Users/fyreband/Desktop/Projects/Website from Scratch/Images/blackmetal.jpeg');
+}
+
+nav {
+    font-family: Excluded, "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 35px;
+}
+
+nav li {
+    font-family: Excluded, "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+body { 
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: Excluded, "Trebuchet MS", sans-serif;
+    color: #FF4E00;
+    font-size: 40px;
+    text-shadow: black;
+}
+
+h3 {
+    font-family: Excluded, "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Audiowide, "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0px 125px;;
+}
+
+h5 {
+    font-family: Audiowide, sans-serif;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: Audiowide, "Trebuchet MS", sans-serif;
+    color: #FFFFFF;
+}
+
+button {
+    background-color:#FF4E00;
+    font-family: Excluded;
+    font-size: 20px;
+}
+
+form button {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+a:hover {
+    transition: 0.2s;
+    color:#FF4E00;
+}
+
+.intro {
+    display: flex;
+}
+
+.video {
+    position: absolute;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    size: cover;
+    opacity: 40%;
+}
+
+.video-overlay {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.email-signup {
+    position: relative;
+}
+
+.album-art{
+    width: 200px;
+}
+
+thead {
+    font-family: Excluded;
+    color: #FF4E00;
+    font-size: 35px;
+}
+
+table {
+    font-family: Excluded;
+    color: white;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+audio caption {
+    font-family: Audiowide;
+    color: white;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+form input {
+    border-radius: 10px;;
+    margin: 8px;
+    height: 20px;
+    width: 200px;
+}
+
+
+.albums {
+    display: flex;
+    justify-content: center;
+}
+
+.singles {
+    display: flex;
+    justify-content: center;
+}
+
+.VIM,
+.BTM-DLX,
+.OVR {
+    padding: 20px;
+}
+
+.OVR-RC,
+.MLV,
+.HCII {
+    padding: 20px;
+}
+
+.cover {
+    width: 400px;
+    height: 400px;
+}
+
+.time, .fulltime {
+    color: white;
+    font-family: sans-serif;
+}
+
+.timeline-slider {
+    display: inline;
+    align-items: center;
+    width: 400px;
+}
+
+.timeline-slider .slider {
+    width: 400px;
+    align-items: center;
+}
+
+ .volume-slider {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+ }
+
+ .btn-vol {
+    border-radius: 25%;
+    width: 40px;
+    height: 30px;
+ }
+
+ .btn-vol img {
+    width: 30px;
+    height: 30px;
+ }
+
+.btn-main {
+    border-radius: 25%;
+    width: 90px;
+    height: 65px;
+}
+
+.btn-main img {
+    height: 40px;
+    width: 40px;
+}
+
+.btn {
+    border-radius: 25%;
+    width: 75px;
+    height: 45px;
+}
+
+.btn img {
+    height: 40px;
+    width: 40px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.store-item {
+    width: 25%;
+    height: auto;
+    margin: 25px;
+}
+
+.store-item img {
+    width: 95%;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.item {
+    margin: 50px;
+    width: 35%;
+    height: auto;
+}
+
+.item img {
+    width: 100%;
+}
+
+.desc-opt {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+
+@font-face {
+    font-family: Excluded;
+    src: url("/Users/fyreband/Desktop/Projects/Website from Scratch/Fonts/Excluded.ttf")format("truetext");
+}
+
+@font-face {
+    font-family: Audiowide;
+    src: url("/Users/fyreband/Desktop/Projects/Website from Scratch/Fonts/Audiowide/Audiowide-Regular.ttf")format("truetext");
+}
+
+@media only screen and (max-width: 580px) {
+    body {
+        display: block;
+    }
+
+    header img {
+        width: 100%;
+        height: auto;
+    }
+
+    h4 {
+        font-size: 24px;
+        padding: 4px;
+    }
+
+    .albums {
+        display: block;
+        justify-content: center;
+    }
+    .singles {
+       display: block;
+       justify-content: center;
+    }
+    .music-releases {
+        display: block;
+    }
+
+    form {
+        display: block;
+    }
+
+    form input {
+        height: 35px;
+        width: 300px;
+    }
+
+    form button {
+        font-size: 25px;
+        padding: 12px;
+    }
+
+    .store {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .store-item {
+        width: 60%;
+        margin: 20px;
+    }
+
+    .About iframe {
+        width: 100%;
+    }
+
+    .About img {
+        width: 100%;
+    }
+}
