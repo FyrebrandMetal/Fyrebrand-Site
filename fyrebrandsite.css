@@ -273,12 +273,12 @@ iframe {
 
 @font-face {
     font-family: Excluded;
-    src: url("/Users/fyreband/Desktop/Projects/Website from Scratch/Fonts/Excluded.ttf")format("truetext");
+    src: url("Excluded.ttf")format("truetext");
 }
 
 @font-face {
     font-family: Audiowide;
-    src: url("/Users/fyreband/Desktop/Projects/Website from Scratch/Fonts/Audiowide/Audiowide-Regular.ttf")format("truetext");
+    src: url("Audiowide-Regular.ttf")format("truetext");
 }
 
 @media only screen and (max-width: 580px) {
