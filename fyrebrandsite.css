@@ -128,10 +128,24 @@ audio caption {
     color: white;
 }
 
-.email-singup {
-    display: flex;
+.email-signup {
     position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    text-align: center; 
+}
+
+#mc_embed_signup {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
