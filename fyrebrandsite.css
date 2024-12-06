@@ -148,6 +148,10 @@ audio caption {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+.mobile-signup {
+    visibility: hidden;
+}
+
 
 form {
     display: flex;
@@ -357,12 +361,11 @@ iframe {
     }
 
     .email-signup {
-        width: 90%;
-        margin: 0 auto;
+        visibility: hidden;
     }
 
-    #mc-embed-signup {
-        width: 90%;
-        margin: 0 auto;
+    .mobile-singup{
+        visibility: visible;
+        width: 220px;
     }
 }
