@@ -357,13 +357,7 @@ iframe {
     }
 
     .email-signup {
-        width: 100%;
-        margin: 0 20px;
-    }
-
-    #mc_embed_signup {
-        margin: 0 20px;
-        width: 100%;
-        height: auto;
+        width: 90%;
+        margin: 0 auto;
     }
 }
