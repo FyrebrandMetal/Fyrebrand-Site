@@ -132,6 +132,10 @@ audio caption {
     color: white;
 }
 
+.email-singup {
+    justify-content: center;
+}
+
 
 form {
     display: flex;
