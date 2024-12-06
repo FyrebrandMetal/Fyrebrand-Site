@@ -129,7 +129,10 @@ audio caption {
 }
 
 .email-singup {
+    position: relative;
     justify-content: center;
+    align-items: center;
+    justify-tems: center;
 }
 
 
