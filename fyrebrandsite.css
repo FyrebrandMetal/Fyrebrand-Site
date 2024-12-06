@@ -355,4 +355,10 @@ iframe {
     .About img {
         width: 100%;
     }
+
+    #mc_embed_signup {
+        margin: 0 20px;
+        width: 100%;
+        height: auto;
+    }
 }
