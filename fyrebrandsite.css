@@ -359,4 +359,9 @@ iframe {
     .email-signup {
         width: 220px;
     }
+
+    #mc_embed_signup {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
