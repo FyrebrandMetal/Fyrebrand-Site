@@ -148,10 +148,6 @@ audio caption {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.mobile-signup {
-    visibility: hidden;
-}
-
 
 form {
     display: flex;
@@ -361,11 +357,6 @@ iframe {
     }
 
     .email-signup {
-        visibility: hidden;
-    }
-
-    .mobile-singup{
-        visibility: visible;
         width: 220px;
     }
 }
