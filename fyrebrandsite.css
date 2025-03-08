@@ -104,6 +104,10 @@ video {
     width: 100%;
 }
 
+iframe {
+    margin: 0 auto;
+}
+
 .album-art{
     width: 200px;
 }
