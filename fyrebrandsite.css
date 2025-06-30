@@ -94,6 +94,7 @@ video {
     height: 100%;
     size: cover;
     opacity: 40%;
+    margin-bottom: 28px; 
 }
 
 .video-overlay {
@@ -105,8 +106,8 @@ video {
 }
 
 .support {
-    position: relative;
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
 }
