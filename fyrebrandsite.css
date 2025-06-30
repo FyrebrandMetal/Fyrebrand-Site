@@ -104,6 +104,13 @@ video {
     width: 100%;
 }
 
+.support {
+    position: relative;
+    display: flex;
+    width: 100%
+    align-items: center;
+}
+
 .album-art{
     width: 200px;
 }
