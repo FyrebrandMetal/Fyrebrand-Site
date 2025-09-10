@@ -90,7 +90,7 @@ a:hover {
 }
 
 video {
-    width: 100%;
+    width: 70%;
     height: 100%;
     size: cover;
     opacity: 40%;
@@ -138,6 +138,7 @@ table {
     width: 80%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 
