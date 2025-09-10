@@ -135,7 +135,7 @@ table {
 
 .links {
     font-size: 35px;
-    width: 80%;
+    position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
