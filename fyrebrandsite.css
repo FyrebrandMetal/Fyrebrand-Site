@@ -390,15 +390,8 @@ iframe {
         object-fit: contain;
     }
 
-    .Title img {
-        width: auto;
-        height: auto;
-        object-fit: contian;
-    }
-
     .new-song {
-        display: flex;
-        flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
     }
