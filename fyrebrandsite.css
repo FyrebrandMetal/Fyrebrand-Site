@@ -391,7 +391,16 @@ iframe {
     }
 
     .Title img {
-        display: none;
+        width: auto;
+        height: auto;
+        object-fit: contian;
+    }
+
+    .new-song {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     h4 {
